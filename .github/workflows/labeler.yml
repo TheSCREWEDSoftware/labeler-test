@@ -6,7 +6,8 @@ on:
 
 jobs:
   automate-issues-labels:
-    runs-on: ubuntu-latest
+    #runs-on: ubuntu-latest`
+    runs-on: windows-latest
     steps:
       - name: initial labeling
         uses: andymckay/labeler@master
